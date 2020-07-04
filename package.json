@@ -1,0 +1,37 @@
+{
+  "name": "eda-backend-deps",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "backend"
+  ],
+  "author": "EDA",
+  "license": "ISC",
+  "bin": {
+    "knex": "node_modules/knex/bin/cli.js",
+    "nodemon": "node_modules/nodemon/bin/nodemon.js"
+  },
+  "dependencies": {
+    "authenticare": "^0.4.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "knex": "^0.21.1"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "regenerator-runtime": "^0.13.5",
+    "sqlite3": "^5.0.0",
+    "supertest": "^4.0.2"
+  }
+}
