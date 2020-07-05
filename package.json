@@ -1,6 +1,6 @@
 {
   "name": "eda-backend-deps",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
@@ -9,7 +9,7 @@
     "seed": "npm run knex seed:run",
     "migrate": "npm run knex migrate:latest",
     "rollback": "npm run knex migrate:rollback",
-    "server": "nodemon ../../server"
+    "server": "nodemon ../../server --watch ../../server"
   },
   "bin": {
     "seed-backend-db": "./seed",
