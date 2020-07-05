@@ -6,6 +6,8 @@ To apply these dependencies:
 
 Available commands
 
+* `test-backend`
+* `watch-backend-tests`
 * `seed-backend-db`
 * `migrate-backend-db`
 * `rollback-backend-db`
@@ -15,6 +17,8 @@ In your `package.json`, add
 
 ```js
 "scripts": {
+  "test": "test-backend",
+  "watch:tests": "watch-backend-tests",
   "db:seed": "seed-backend-db",
   "db:migrate": "migrate-backend-db",
   "db:rollback": "rollback-backend-db",
