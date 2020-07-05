@@ -6,15 +6,19 @@ To apply these dependencies:
 
 Available commands
 
-* `backend-db`
-* `backend-dev-server`
+* `seed-backend-db`
+* `migrate-backend-db`
+* `rollback-backend-db`
+* `start-backend-dev-server`
 
 In your `package.json`, add
 
 ```js
 "scripts": {
-  "db": "backend-db",
-  "dev-server": "backend-dev-server"
+  "db:seed": "seed-backend-db",
+  "db:migrate": "migrate-backend-db",
+  "db:rollback": "rollback-backend-db",
+  "dev-server": "start-backend-dev-server"
 },
 ```
 

@@ -1,2 +1,2 @@
 cd node_modules/eda-backend-deps
-npm run nodemon
+npm run seed
