@@ -1,16 +1,20 @@
 {
   "name": "eda-backend-deps",
   "version": "0.1.0",
-  "description": "",
+  "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "main": "index.js",
   "keywords": [
     "backend"
   ],
   "author": "EDA",
   "license": "ISC",
+  "scripts": {
+    "knex": "knex --knexfile ../../server/db/knexfile.js",
+    "nodemon": "nodemon ../../server"
+  },
   "bin": {
-    "knex": "node_modules/knex/bin/cli.js",
-    "nodemon": "node_modules/nodemon/bin/nodemon.js"
+    "backend-db": "./knex",
+    "backend-dev-server": "./nodemon"
   },
   "dependencies": {
     "authenticare": "^0.4.7",
