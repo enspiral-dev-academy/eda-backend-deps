@@ -1,12 +1,12 @@
 {
   "name": "eda-backend-deps",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
   "scripts": {
     "test": "jest",
-    "watch-tests": "jest --watch",
+    "watch:tests": "jest --watch",
     "knex": "knex --knexfile ../../server/db/knexfile.js",
     "seed": "npm run knex seed:run",
     "migrate": "npm run knex migrate:latest",
