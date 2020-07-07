@@ -6,6 +6,7 @@ To apply these dependencies:
 
 Available commands
 
+* `lint-backend`
 * `test-backend`
 * `watch-backend-tests`
 * `seed-backend-db`
@@ -17,6 +18,7 @@ In your `package.json`, add
 
 ```js
 "scripts": {
+  "lint": "lint-backend",
   "test": "test-backend",
   "watch:tests": "watch-backend-tests",
   "db:seed": "seed-backend-db",
@@ -25,6 +27,8 @@ In your `package.json`, add
   "dev-server": "start-backend-dev-server"
 },
 ```
+
+The linter runs on `/server`.
 
 Requirements
 
