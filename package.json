@@ -1,6 +1,6 @@
 {
   "name": "eda-backend-deps",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
@@ -40,6 +40,7 @@
   "dependencies": {
     "authenticare": "^0.4.7",
     "axios": "^0.19.2",
+    "babel-eslint": "^10.1.0",
     "dotenv": "^8.2.0",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",

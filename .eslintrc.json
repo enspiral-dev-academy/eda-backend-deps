@@ -1,5 +1,13 @@
 {
   "parser": "babel-eslint",
+  "env": {
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
   "plugins": [
     "import",
     "jest",
@@ -12,7 +20,6 @@
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:node/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
     "plugin:promise/recommended",
