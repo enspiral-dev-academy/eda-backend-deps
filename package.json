@@ -1,6 +1,6 @@
 {
   "name": "eda-backend-deps",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
