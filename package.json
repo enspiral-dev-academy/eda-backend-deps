@@ -1,6 +1,6 @@
 {
   "name": "eda-backend-deps",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A dependency repo of backend libraries used in EDA's exercies and apps",
   "author": "EDA",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "rollback-backend-db": "./rollback",
     "start-backend-dev-server": "./server"
   },
+  "main": "index.js",
   "homepage": "https://github.com/enspiral-dev-academy/eda-backend-deps#readme",
   "repository": {
     "type": "git",
