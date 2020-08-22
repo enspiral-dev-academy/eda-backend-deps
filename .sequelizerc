@@ -1,0 +1,2 @@
+const config = require('../../.sequelizerc')
+module.exports = config
